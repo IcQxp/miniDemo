@@ -13,7 +13,7 @@
             <TextBlock Text="Главное меню" ></TextBlock>
             <Button Content="Товары" Width="150" Margin="0 10 0 10" Click="Button_Click"/>
             <Button Content="Врачи" Width="150" Click="Button_Click_1"/>
-            <Button Content="Услуги" Width="150" Margin="0 10 0 10"/>
+            <Button Content="Услуги" Width="150" Margin="0 10 0 10" Click="Button_Click_2"/>
             <Button Content="Выйти" Width="100" Margin="0 30 0 10"/>
 
         </StackPanel>

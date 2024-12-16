@@ -21,3 +21,5 @@ D:\Илья\delete me now\WpfApp1\obj\Debug\WpfApp1.exe
 D:\Илья\delete me now\WpfApp1\obj\Debug\WpfApp1.pdb
 D:\Илья\delete me now\WpfApp1\obj\Debug\Pages\DoctorsPage.g.cs
 D:\Илья\delete me now\WpfApp1\obj\Debug\Pages\DoctorsPage.baml
+D:\Илья\delete me now\WpfApp1\obj\Debug\Pages\ZapisiPage.g.cs
+D:\Илья\delete me now\WpfApp1\obj\Debug\Pages\ZapisiPage.baml

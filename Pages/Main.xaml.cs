@@ -38,5 +38,11 @@ namespace WpfApp1.Pages
 
             mainWindow.MainFrame.Content = new DoctorsPage();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+
+            mainWindow.MainFrame.Content = new ZapisiPage();
+        }
     }
 }
