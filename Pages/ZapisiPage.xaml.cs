@@ -113,5 +113,11 @@ namespace WpfApp1.Pages
             // Обновляем отображение записей
             DisplayZapisi();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = Application.Current.MainWindow as MainWindow;
+            mainWindow.MainFrame.Content = new Main();
+        }
     }
 }

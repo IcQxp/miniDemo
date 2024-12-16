@@ -10,7 +10,7 @@
 
     <Grid>
         <StackPanel>
-            <Button Content="Назад" Width="150" Height="30"></Button>
+            <Button Content="Назад" Width="150" Height="30" Click="Button_Click"></Button>
 
             <StackPanel x:Name="ZapisiStackPanel" Margin="10 10 10 10"/>
 
