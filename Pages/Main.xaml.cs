@@ -32,5 +32,11 @@ namespace WpfApp1.Pages
             mainWindow.MainFrame.Content = new ProductsPage();
 
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+            mainWindow.MainFrame.Content = new DoctorsPage();
+        }
     }
 }
