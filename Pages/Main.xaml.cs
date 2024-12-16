@@ -20,9 +20,17 @@ namespace WpfApp1.Pages
     /// </summary>
     public partial class Main : Page
     {
+        MainWindow mainWindow;
         public Main()
         {
             InitializeComponent();
+            mainWindow = Application.Current.MainWindow as MainWindow;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            mainWindow.MainFrame.Content = new ProductsPage();
+
         }
     }
 }

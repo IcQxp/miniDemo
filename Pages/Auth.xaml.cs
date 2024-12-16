@@ -20,9 +20,17 @@ namespace WpfApp1.Pages
     /// </summary>
     public partial class Auth : Page
     {
+        MainWindow mainWindow;
         public Auth()
         {
             InitializeComponent();
+            mainWindow = Application.Current.MainWindow as MainWindow;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            mainWindow.MainFrame.Content = new Main();
+
         }
     }
 }
